@@ -1,3 +1,9 @@
+<!--=======================================================
+* Template Name: FacebookUI 
+* Template URL: 
+* Author: Vikas Tandon
+* License: N/A
+======================================================== -->
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@300&display=swap');
 :root {
   --background: #f0f2f5;
@@ -281,10 +287,11 @@ body {
 .sideBarContainer {
   position: absolute;
   right: 50%;
+  margin-top: 5%;
   -webkit-transform: translateX(50%);
   transform: translateX(50%);
-  margin-top: 6vh;
-  height: 95vh;
+  margin-top: 3%;
+  height: 90vh;
   width: 1460px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -817,7 +824,7 @@ body {
 }
 
 .rooms .profiles {
-  width: 700px;
+  width: 600px;
   height: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1188,4 +1195,4 @@ body {
   height:90px;
   float:right;
 }
-/*# sourceMappingURL=style.css.map */
+
